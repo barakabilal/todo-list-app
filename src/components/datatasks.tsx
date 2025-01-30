@@ -4,7 +4,5 @@ export interface Data {
     isCompleted: boolean;
   }
   
-  export const tasks: Data[] = [
-
-  ];
+  
   

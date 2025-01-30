@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo List app built using **React**, **TypeScript**, and **Vite**. The app allows you to add, edit, and remove tasks from a list, and provides a fast development environment with **Vite**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add tasks to the todo list
+- Mark tasks as completed
+- Delete tasks
+- Use TypeScript for static typing
+- Fast development with Vite and Hot Module Replacement (HMR)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React** for building the UI components
+- **TypeScript** for type safety
+- **Vite** as the build tool with fast development and HMR
+- **CSS** for styling
 
-- Configure the top-level `parserOptions` property like this:
+## Installation Instructions
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 1. Clone the Repository
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Clone this repository to your local machine:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+git clone <https://github.com/barakabilal/todo-list-app>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 2. Install Dependencies
+
+Navigate to the project folder and install the required dependencies with:
+cd (name of folder in your machine)
+npm install
+
+### 3. Run the Project
+
+npm run dev
+This will start the development server and you can access the app at <http://localhost:5000>
