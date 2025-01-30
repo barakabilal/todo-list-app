@@ -15,7 +15,7 @@ This is a simple Todo List app built using **React**, **TypeScript**, and **Vite
 - **React** for building the UI components
 - **TypeScript** for type safety
 - **Vite** as the build tool with fast development and HMR
-- **CSS** for styling
+- **tailwind css** for styling
 
 ## Installation Instructions
 
